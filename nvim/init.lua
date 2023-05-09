@@ -1,0 +1,13 @@
+require("core.options")
+require("core.keymaps")
+require("core.plugins")
+require("core.colorscheme")
+
+require("plugins.impatient")
+require("plugins.ack")
+require("plugins.cmp")
+require("plugins.gitsigns")
+require("plugins.lsp")
+require("plugins.telescope")
+require("plugins.tree")
+require("plugins.treesitter")
