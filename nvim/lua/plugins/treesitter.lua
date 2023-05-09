@@ -5,7 +5,7 @@ end
 
 treesitter_configs.setup({
   -- A list of parser names, or "all" (the four listed parsers should always be installed)
-  ensure_installed = { "c", "cpp", "python", "rust", "yaml", "proto", "lua", "vim", "help" },
+  ensure_installed = { "c", "cpp", "python", "rust", "yaml", "proto", "lua", "vim" },
 
   -- Automatically install missing parsers when entering buffer
   -- Recommendation: set to false if you don't have `tree-sitter` CLI installed locally
